@@ -6,13 +6,13 @@ Description
 
 Ce projet permet de créer des cartes choroplèthes pour la Côte d'Ivoire, avec plusieurs options de sortie :
 
-# PNG haute résolution (600 DPI)
+* PNG haute résolution (600 DPI)
 
-# SVG vectoriel
+* SVG vectoriel
 
-# HTML interactif avec Folium
+* HTML interactif avec Folium
 
-# Il est particulièrement utile pour visualiser des données statistiques par districts, régions, départements ou sous-préfectures.
+*** Il est particulièrement utile pour visualiser des données statistiques par districts, régions, départements ou sous-préfectures ***
 
 
 # Auteur
@@ -66,7 +66,8 @@ plot_choropleth1(
     cmap="Purples",          # palette de couleurs matplotlib
     output_basename="ma_carte"
 )
-# NB: il ya d'autres arguments, fais "help(plot_choropleth1)" pour voir toutes les options
+
+* NB: il ya d'autres arguments, fais "help(plot_choropleth1)" pour voir toutes les options.
 
 
 
